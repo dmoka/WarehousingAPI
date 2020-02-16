@@ -12,4 +12,4 @@ docker build -t warehousing .
 ```
 docker run -p 85:80 warehousing
 ```
-5. The microservice is exposed and can be reached at http//localhost:85. In order to verify its functionality, use the provided Postman collection located at "src" folder
+5. The microservice is exposed and can be reached at http://localhost:85. In order to verify its functionality, use the provided Postman collection located at "src" folder
