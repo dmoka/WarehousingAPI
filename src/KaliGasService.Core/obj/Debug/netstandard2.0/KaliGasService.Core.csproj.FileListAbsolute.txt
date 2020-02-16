@@ -1,0 +1,8 @@
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\bin\Debug\netstandard2.0\KaliGasService.Core.deps.json
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\bin\Debug\netstandard2.0\KaliGasService.Core.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netstandard2.0\KaliGasService.Core.csprojAssemblyReference.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netstandard2.0\KaliGasService.Core.AssemblyInfoInputs.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netstandard2.0\KaliGasService.Core.AssemblyInfo.cs
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\bin\Debug\netstandard2.0\KaliGasService.Core.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netstandard2.0\KaliGasService.Core.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netstandard2.0\KaliGasService.Core.pdb

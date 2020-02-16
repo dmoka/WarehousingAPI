@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>xUnitTestAsync</Title>
+            <Shortcut>testna</Shortcut>
+            <Description>Code snippet for Console.WriteLine</Description>           
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+           <Imports>
+			   <Import>
+                 <Namespace>System.Threading.Tasks</Namespace>
+               </Import>
+                <Import>
+                    <Namespace>Xunit</Namespace>
+                </Import>
+               <Import>
+                 <Namespace>NFluent</Namespace>
+               </Import>               
+            </Imports>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>SystemConsole</ID>
+                    <Function>SimpleTypeName(global::System.Console)</Function>
+                </Literal>
+            </Declarations>
+            <Code Language="csharp"><![CDATA[[Fact]
+            public async Task $end$Test()
+            {
+            //Arrange
+            
+            //Act
+            
+            //Assert
+            }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

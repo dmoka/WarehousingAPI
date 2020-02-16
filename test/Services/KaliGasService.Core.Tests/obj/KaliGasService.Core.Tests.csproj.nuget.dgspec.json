@@ -1,0 +1,631 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.Core.Tests\\KaliGasService.Core.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj",
+        "projectName": "KaliGasService.Core",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.API\\Warehousing.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.API\\Warehousing.API.csproj",
+        "projectName": "Warehousing.API",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.API\\Warehousing.API.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj",
+        "projectName": "Warehousing.Data",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.0.19249.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.112, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj",
+        "projectName": "Warehousing.Domain",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.Core.Tests\\KaliGasService.Core.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.Core.Tests\\KaliGasService.Core.Tests.csproj",
+        "projectName": "KaliGasService.Core.Tests",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.Core.Tests\\KaliGasService.Core.Tests.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.Core.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\Warehousing\\Warehousing.Testhelpers\\Warehousing.Testhelpers.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\Warehousing\\Warehousing.Testhelpers\\Warehousing.Testhelpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "NFluent": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj",
+        "projectName": "KaliGasService.TestHelpers",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\KaliGasService.Core\\KaliGasService.Core.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NFluent": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\Warehousing\\Warehousing.Testhelpers\\Warehousing.Testhelpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\Warehousing\\Warehousing.Testhelpers\\Warehousing.Testhelpers.csproj",
+        "projectName": "Warehousing.Testhelpers",
+        "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\Warehousing\\Warehousing.Testhelpers\\Warehousing.Testhelpers.csproj",
+        "packagesPath": "C:\\Users\\dmoka\\.nuget\\packages\\",
+        "outputPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\Warehousing\\Warehousing.Testhelpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/dapper/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.API\\Warehousing.API.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.API\\Warehousing.API.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Data\\Warehousing.Data.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\src\\Services\\Warehousing\\Warehousing.Domain\\Warehousing.Domain.csproj"
+              },
+              "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj": {
+                "projectPath": "D:\\Daniel Moka\\Work\\KaliGazszerviz\\KaliGasService\\test\\Services\\KaliGasService.TestHelpers\\KaliGasService.TestHelpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
+            "FluentAssertions.Json": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.112, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netcoreapp3.1\KaliGasService.Core.csprojAssemblyReference.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netcoreapp3.1\KaliGasService.Core.AssemblyInfoInputs.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\KaliGasService.Core\obj\Debug\netcoreapp3.1\KaliGasService.Core.AssemblyInfo.cs

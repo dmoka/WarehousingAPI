@@ -1,0 +1,11 @@
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\bin\Debug\netstandard2.1\Warehousing.Domain.deps.json
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\bin\Debug\netstandard2.1\Warehousing.Domain.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\bin\Debug\netstandard2.1\Warehousing.Domain.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\bin\Debug\netstandard2.1\KaliGasService.Core.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\bin\Debug\netstandard2.1\KaliGasService.Core.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\obj\Debug\netstandard2.1\Warehousing.Domain.csprojAssemblyReference.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\obj\Debug\netstandard2.1\Warehousing.Domain.AssemblyInfoInputs.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\obj\Debug\netstandard2.1\Warehousing.Domain.AssemblyInfo.cs
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\obj\Debug\netstandard2.1\Warehousing.Domain.csproj.CopyComplete
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\obj\Debug\netstandard2.1\Warehousing.Domain.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\src\Services\Warehousing\Warehousing.Domain\obj\Debug\netstandard2.1\Warehousing.Domain.pdb

@@ -1,0 +1,15 @@
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\obj\Debug\netcoreapp3.1\KaliGasService.TestHelpers.csprojAssemblyReference.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\obj\Debug\netcoreapp3.1\KaliGasService.TestHelpers.AssemblyInfoInputs.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\obj\Debug\netcoreapp3.1\KaliGasService.TestHelpers.AssemblyInfo.cs
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\KaliGasService.TestHelpers.deps.json
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\KaliGasService.TestHelpers.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\KaliGasService.TestHelpers.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\KaliGasService.Core.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\Warehousing.Data.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\Warehousing.Domain.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\KaliGasService.Core.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\Warehousing.Data.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\bin\Debug\netcoreapp3.1\Warehousing.Domain.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\obj\Debug\netcoreapp3.1\KaliGasService.TestHelpers.csproj.CopyComplete
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\obj\Debug\netcoreapp3.1\KaliGasService.TestHelpers.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\KaliGasService.TestHelpers\obj\Debug\netcoreapp3.1\KaliGasService.TestHelpers.pdb

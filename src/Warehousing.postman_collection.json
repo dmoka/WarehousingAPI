@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "b41e1289-320a-4171-a405-9e489debff95",
+		"name": "Warehousing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Products",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IlR0dXBIOTJzRzJmSHlOYjJmaWRSa1EiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE1NzQyNjYwNTYsImV4cCI6MTU3NDI2NjE3NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InNwYSIsInN1YiI6ImQ1NWQzMmVkLTM2ZTItNDVmMy1hNDU5LWFmYjM3NmI1ZmY2MiIsImF1dGhfdGltZSI6MTU3NDI2NjA0OSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSJdLCJhbXIiOlsicHdkIl19.rqn1ty_YKegJlRMKmN4W3nZxAdQ5i0VVSGRd4ALS0ILHJ1Jx6OQO21QalRD4wPHXFBnujOiSXZBetUk-gK_fqpRnfEN7XtSDwFPrO_wmaw-YzNtsV3ghjpPyzxX9ftPhzLeH96PmOPoKfQnoIGOrNxhB0RLSjE44hF7Ru73zzNvgCgxNTXOz9Sd61kWC-254InbuwaUnxN3-PQ-3T0zLUw46mu5DC2REMEIvVSOeIn2wAqPTMaqlDhZGzrTERM8SJTwkofatcmvQGN8hb_8ovbV2dGribCjvNNM9Wcnkt1SNs-eGAiqsYh2ZhDFUM_lI5VmVHdAlTYDqYWfKP7r7yA",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:85/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "85",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IlR0dXBIOTJzRzJmSHlOYjJmaWRSa1EiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE1NzQyNjYwNTYsImV4cCI6MTU3NDI2NjE3NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InNwYSIsInN1YiI6ImQ1NWQzMmVkLTM2ZTItNDVmMy1hNDU5LWFmYjM3NmI1ZmY2MiIsImF1dGhfdGltZSI6MTU3NDI2NjA0OSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSJdLCJhbXIiOlsicHdkIl19.rqn1ty_YKegJlRMKmN4W3nZxAdQ5i0VVSGRd4ALS0ILHJ1Jx6OQO21QalRD4wPHXFBnujOiSXZBetUk-gK_fqpRnfEN7XtSDwFPrO_wmaw-YzNtsV3ghjpPyzxX9ftPhzLeH96PmOPoKfQnoIGOrNxhB0RLSjE44hF7Ru73zzNvgCgxNTXOz9Sd61kWC-254InbuwaUnxN3-PQ-3T0zLUw46mu5DC2REMEIvVSOeIn2wAqPTMaqlDhZGzrTERM8SJTwkofatcmvQGN8hb_8ovbV2dGribCjvNNM9Wcnkt1SNs-eGAiqsYh2ZhDFUM_lI5VmVHdAlTYDqYWfKP7r7yA",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"name\": \"Ariston\",\r\n\t\"articleNumber\": \"123456789\",\r\n\t\"type\": \"GasBoiler\",\r\n\t\"customTariffNumber\": \"730900\",\r\n\t\"quantity\": 5,\r\n\t\"unit\": \"Piece\",\r\n\t\"netUnitPrice\": 40000,\r\n\t\"netValue\": 40001,\r\n\t\"vat\": 27,\r\n\t\"vatSum\": 11000,\r\n\t\"grossUnitPrice\": 51000,\r\n\t\"grossValue\": 51001,\r\n\t\"notes\": \"Egyeb\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:85/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "85",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pick",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IlR0dXBIOTJzRzJmSHlOYjJmaWRSa1EiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE1NzQyNjYwNTYsImV4cCI6MTU3NDI2NjE3NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InNwYSIsInN1YiI6ImQ1NWQzMmVkLTM2ZTItNDVmMy1hNDU5LWFmYjM3NmI1ZmY2MiIsImF1dGhfdGltZSI6MTU3NDI2NjA0OSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSJdLCJhbXIiOlsicHdkIl19.rqn1ty_YKegJlRMKmN4W3nZxAdQ5i0VVSGRd4ALS0ILHJ1Jx6OQO21QalRD4wPHXFBnujOiSXZBetUk-gK_fqpRnfEN7XtSDwFPrO_wmaw-YzNtsV3ghjpPyzxX9ftPhzLeH96PmOPoKfQnoIGOrNxhB0RLSjE44hF7Ru73zzNvgCgxNTXOz9Sd61kWC-254InbuwaUnxN3-PQ-3T0zLUw46mu5DC2REMEIvVSOeIn2wAqPTMaqlDhZGzrTERM8SJTwkofatcmvQGN8hb_8ovbV2dGribCjvNNM9Wcnkt1SNs-eGAiqsYh2ZhDFUM_lI5VmVHdAlTYDqYWfKP7r7yA",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n \t\"name\": \"Ariston\",\r\n \t\"quantity\": 3\r\n }"
+						},
+						"url": {
+							"raw": "http://localhost:85/api/products/{{productId}}/pick",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "85",
+							"path": [
+								"api",
+								"products",
+								"{{productId}}",
+								"pick"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unpick",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IlR0dXBIOTJzRzJmSHlOYjJmaWRSa1EiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE1NzQyNjYwNTYsImV4cCI6MTU3NDI2NjE3NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InNwYSIsInN1YiI6ImQ1NWQzMmVkLTM2ZTItNDVmMy1hNDU5LWFmYjM3NmI1ZmY2MiIsImF1dGhfdGltZSI6MTU3NDI2NjA0OSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSJdLCJhbXIiOlsicHdkIl19.rqn1ty_YKegJlRMKmN4W3nZxAdQ5i0VVSGRd4ALS0ILHJ1Jx6OQO21QalRD4wPHXFBnujOiSXZBetUk-gK_fqpRnfEN7XtSDwFPrO_wmaw-YzNtsV3ghjpPyzxX9ftPhzLeH96PmOPoKfQnoIGOrNxhB0RLSjE44hF7Ru73zzNvgCgxNTXOz9Sd61kWC-254InbuwaUnxN3-PQ-3T0zLUw46mu5DC2REMEIvVSOeIn2wAqPTMaqlDhZGzrTERM8SJTwkofatcmvQGN8hb_8ovbV2dGribCjvNNM9Wcnkt1SNs-eGAiqsYh2ZhDFUM_lI5VmVHdAlTYDqYWfKP7r7yA"
+							},
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n \t\"name\": \"Ariston\",\r\n \t\"quantity\": 10\r\n }"
+						},
+						"url": {
+							"raw": "http://localhost:85/api/products/{{productId}}/unpick",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "85",
+							"path": [
+								"api",
+								"products",
+								"{{productId}}",
+								"unpick"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "History lines",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IlR0dXBIOTJzRzJmSHlOYjJmaWRSa1EiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE1NzQyNjYwNTYsImV4cCI6MTU3NDI2NjE3NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiYXBpMSIsImNsaWVudF9pZCI6InNwYSIsInN1YiI6ImQ1NWQzMmVkLTM2ZTItNDVmMy1hNDU5LWFmYjM3NmI1ZmY2MiIsImF1dGhfdGltZSI6MTU3NDI2NjA0OSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwiYXBpMSJdLCJhbXIiOlsicHdkIl19.rqn1ty_YKegJlRMKmN4W3nZxAdQ5i0VVSGRd4ALS0ILHJ1Jx6OQO21QalRD4wPHXFBnujOiSXZBetUk-gK_fqpRnfEN7XtSDwFPrO_wmaw-YzNtsV3ghjpPyzxX9ftPhzLeH96PmOPoKfQnoIGOrNxhB0RLSjE44hF7Ru73zzNvgCgxNTXOz9Sd61kWC-254InbuwaUnxN3-PQ-3T0zLUw46mu5DC2REMEIvVSOeIn2wAqPTMaqlDhZGzrTERM8SJTwkofatcmvQGN8hb_8ovbV2dGribCjvNNM9Wcnkt1SNs-eGAiqsYh2ZhDFUM_lI5VmVHdAlTYDqYWfKP7r7yA",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:85/api/products/{{productId}}/history",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "85",
+							"path": [
+								"api",
+								"products",
+								"{{productId}}",
+								"history"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

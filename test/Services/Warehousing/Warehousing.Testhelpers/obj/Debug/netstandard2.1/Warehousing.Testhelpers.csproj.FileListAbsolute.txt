@@ -1,0 +1,15 @@
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\obj\Debug\netstandard2.1\Warehousing.Testhelpers.csprojAssemblyReference.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\obj\Debug\netstandard2.1\Warehousing.Testhelpers.AssemblyInfoInputs.cache
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\obj\Debug\netstandard2.1\Warehousing.Testhelpers.AssemblyInfo.cs
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Testhelpers.deps.json
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Testhelpers.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Testhelpers.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Data.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Domain.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Data.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\Warehousing.Domain.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\obj\Debug\netstandard2.1\Warehousing.Testhelpers.csproj.CopyComplete
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\obj\Debug\netstandard2.1\Warehousing.Testhelpers.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\obj\Debug\netstandard2.1\Warehousing.Testhelpers.pdb
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\KaliGasService.Core.dll
+D:\Daniel Moka\Work\KaliGazszerviz\KaliGasService\test\Services\Warehousing\Warehousing.Testhelpers\bin\Debug\netstandard2.1\KaliGasService.Core.pdb
