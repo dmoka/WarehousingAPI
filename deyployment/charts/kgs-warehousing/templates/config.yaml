@@ -1,0 +1,461 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: warehousing-db-config
+  namespace: default
+data:
+  db.json: | 
+    {
+      "products": [
+        {
+          "id": 1,
+          "type": "GasBoiler",
+          "name": "Ariston Cares Premium 24 5",
+          "articleNumber": "11",
+          "sellingPrice": 200011,
+          "quantity": 23,
+          "notes": "",
+          "productNumber": "11"
+        },
+        {
+          "id": 2,
+          "type": "Controller",
+          "name": "Szabályzó 1",
+          "articleNumber": "12",
+          "sellingPrice": 4000,
+          "quantity": "2",
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 3,
+          "type": "GasBoiler",
+          "name": "Saunier Duval Semiatek Condens 24 ",
+          "articleNumber": "13",
+          "sellingPrice": 220000,
+          "quantity": 2,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 4,
+          "type": "GasBoiler",
+          "name": "Beretta CIAO GREEN 25",
+          "articleNumber": "14",
+          "sellingPrice": 250000,
+          "quantity": 2,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 5,
+          "type": "GasBoiler",
+          "name": "Viadrus K4 fűtő kondenzációs kazán",
+          "articleNumber": "15",
+          "sellingPrice": 300000,
+          "quantity": 4,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 6,
+          "type": "Controller",
+          "name": "Szabályzó 2",
+          "articleNumber": "16",
+          "sellingPrice": 4000,
+          "quantity": 5,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 7,
+          "type": "FlueGasDrainage",
+          "name": "Füstgáz elvezetés 1",
+          "articleNumber": "17",
+          "sellingPrice": 4000,
+          "quantity": 5,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 8,
+          "type": "Filter",
+          "name": "Szűrő 1",
+          "articleNumber": "18",
+          "sellingPrice": 4000,
+          "quantity": 5,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 9,
+          "type": "Controller",
+          "name": "GasBoiler1",
+          "articleNumber": "19",
+          "sellingPrice": 4000,
+          "quantity": 5,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 10,
+          "type": "FlueGasDrainage",
+          "name": "Füstgáz elvezetés 2",
+          "articleNumber": "20",
+          "sellingPrice": 4000,
+          "quantity": 5,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 11,
+          "type": "FlueGasDrainage",
+          "name": "Füstgáz elvezetés 3",
+          "articleNumber": "21",
+          "sellingPrice": 4000,
+          "quantity": 14,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 12,
+          "type": "GasBoiler",
+          "name": "BAXI Prime 24 ERP kombi kazán",
+          "articleNumber": "22",
+          "sellingPrice": 300000,
+          "quantity": 0,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 13,
+          "type": "GasBoiler",
+          "name": "Immergas Victrix TT 24 kW kondenzációs kombi",
+          "articleNumber": "23",
+          "sellingPrice": 290000,
+          "quantity": 2,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 33,
+          "type": "GasBoiler",
+          "name": "New Stuff",
+          "articleNumber": "11",
+          "sellingPrice": 200000,
+          "quantity": 1,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 34,
+          "type": "GasBoiler",
+          "name": "New Stuff2",
+          "articleNumber": "11",
+          "sellingPrice": 200000,
+          "quantity": 1,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 35,
+          "type": "GasBoiler",
+          "name": "New Stuff3",
+          "articleNumber": "11",
+          "sellingPrice": 200000,
+          "quantity": 1,
+          "notes": "Megjegyzes"
+        },
+        {
+          "id": 36,
+          "type": "GasBoiler",
+          "name": "New Stuff4",
+          "articleNumber": "11",
+          "sellingPrice": 200000,
+          "quantity": 1,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Moka Daniel",
+          "type": "Valve",
+          "articleNumber": "123",
+          "price": "322222",
+          "quantity": "2",
+          "id": 37,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "New stuff",
+          "type": "FlueGasDrainage",
+          "articleNumber": "32323",
+          "price": "23232",
+          "quantity": "32323",
+          "id": 38,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "New stuff",
+          "type": "FlueGasDrainage",
+          "articleNumber": "32323",
+          "price": "23232",
+          "quantity": "32323",
+          "id": 39,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Custom Branch",
+          "type": "GasBoiler",
+          "articleNumber": "23",
+          "price": "232",
+          "quantity": "32",
+          "id": 40,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Custom Branch",
+          "type": "GasBoiler",
+          "articleNumber": "23",
+          "price": "232",
+          "quantity": "32",
+          "id": 41,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Custom Branch",
+          "type": "GasBoiler",
+          "articleNumber": "23",
+          "price": "232",
+          "quantity": "32",
+          "id": 42,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Custom Branch",
+          "type": "GasBoiler",
+          "articleNumber": "23",
+          "price": "232",
+          "quantity": "32",
+          "id": 43,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Custom Branch",
+          "type": "FlueGasDrainage",
+          "articleNumber": "323232",
+          "price": "3232",
+          "quantity": "3232",
+          "id": 44,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "dasdasas",
+          "type": "FlueGasDrainage",
+          "articleNumber": "323213",
+          "price": "3232132",
+          "quantity": "3213213",
+          "id": 45,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Custom Branch222",
+          "type": "FlueGasDrainage",
+          "articleNumber": "3232",
+          "price": "3213",
+          "quantity": "23",
+          "id": 46,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "Egyeb",
+          "type": "Other",
+          "articleNumber": "23213",
+          "price": "321321",
+          "quantity": "3213213",
+          "id": 47,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "pingentiMvn",
+          "type": "FlueGasDrainage",
+          "articleNumber": "21",
+          "price": "32",
+          "quantity": "22",
+          "id": 48,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "pingentiMvn2",
+          "type": "FlueGasDrainage",
+          "articleNumber": "3232",
+          "price": "3232",
+          "quantity": "32323",
+          "id": 49,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "pingentiMvn3",
+          "type": "GasBoiler",
+          "articleNumber": "3232",
+          "sellingPrice": "23232",
+          "quantity": "4444",
+          "id": 50,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "",
+          "type": "Controller",
+          "sellingPrice": "33",
+          "articleNumber": "322",
+          "quantity": "23",
+          "id": 51,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "",
+          "type": "GasBoiler",
+          "articleNumber": "3232",
+          "sellingPrice": "32323",
+          "quantity": "32",
+          "id": 52,
+          "notes": "Megjegyzes"
+        },
+        {
+          "name": "DaniDanidani",
+          "type": "GasBoiler",
+          "articleNumber": "32131",
+          "sellingPrice": "23213",
+          "quantity": "321321",
+          "notes": "1321321",
+          "id": 53
+        },
+        {
+          "name": "Dani3455",
+          "type": "GasBoiler",
+          "sellingPrice": "3233213",
+          "articleNumber": "3213",
+          "quantity": "3213",
+          "notes": "32",
+          "id": 54
+        },
+        {
+          "name": "Dani 2020",
+          "type": "Controller",
+          "articleNumber": "2",
+          "sellingPrice": "1321",
+          "notes": "32321",
+          "quantity": "32",
+          "id": 55
+        },
+        {
+          "name": "Dani 2022",
+          "type": "Controller",
+          "articleNumber": "2321",
+          "sellingPrice": "321321",
+          "quantity": "3213",
+          "notes": "3213",
+          "id": 56
+        },
+        {
+          "name": "3302019",
+          "type": "Controller",
+          "articleNumber": 33,
+          "sellingPrice": 321321,
+          "quantity": 4342131,
+          "notes": "dasdasd",
+          "id": 57
+        },
+        {
+          "name": "Dani30000000",
+          "type": "Controller",
+          "sellingPrice": 3213213,
+          "articleNumber": 3213,
+          "quantity": 3232,
+          "notes": "dsa",
+          "id": 58
+        },
+        {
+          "name": "998877",
+          "type": "Filter",
+          "sellingPrice": 3213,
+          "articleNumber": 32131,
+          "quantity": 321,
+          "notes": "das",
+          "id": 59
+        },
+        {
+          "name": "KAKAKAKA",
+          "type": "FlueGasDrainage",
+          "sellingPrice": 321321,
+          "articleNumber": 32133,
+          "quantity": 321321,
+          "id": 60
+        },
+        {
+          "name": "KAKAKAKA",
+          "type": "FlueGasDrainage",
+          "sellingPrice": 321321,
+          "articleNumber": 32133,
+          "quantity": 321321,
+          "id": 61
+        },
+        {
+          "name": "csocsocsocs",
+          "type": "Pipe",
+          "sellingPrice": 213213213213,
+          "articleNumber": 3423213,
+          "quantity": 3213213,
+          "notes": "dasdas",
+          "id": 62
+        },
+        {
+          "name": "handleHandle",
+          "type": "Controller",
+          "sellingPrice": 3232,
+          "articleNumber": 321321,
+          "quantity": 32323,
+          "notes": "32",
+          "id": 63
+        },
+        {
+          "name": "handleeeee",
+          "type": "Controller",
+          "sellingPrice": 323232,
+          "articleNumber": 3232,
+          "quantity": 32323,
+          "notes": "232",
+          "id": 64
+        },
+        {
+          "id": 65,
+          "name": "DaniProba",
+          "type": "Pipe",
+          "sellingPrice": 323213,
+          "articleNumber": 33213,
+          "quantity": 3213230,
+          "notes": "",
+          "productNumber": 33213
+        }
+      ],
+      "productHistories": [
+        {
+          "id": 1,
+          "productId": "11",
+          "date": "2019 Junius 3",
+          "user": "Tamas",
+          "quantity": 3,
+          "In": true,
+          "notes": "Munkahoz ideiglenesen kiveve"
+        },
+        {
+          "id": 2,
+          "productId": "11",
+          "date": "2019 Junius 7",
+          "user": "Tamas",
+          "quantity": 6,
+          "In": true,
+          "notes": "Leltarozas alatt"
+        },
+        {
+          "id": 3,
+          "productId": "11",
+          "date": "2019 Augusztus 25",
+          "user": "Norbi",
+          "quantity": 2,
+          "In": false,
+          "notes": "Hargitai projekthez"
+        }
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "body": "some comment",
+          "postId": 1
+        }
+      ]
+    }
